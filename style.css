@@ -1,0 +1,15 @@
+#gjest {
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    background-color: gray;
+}
+#hoved {
+    width: 150px;
+    height: 750px;
+    margin: auto;
+    font-size: 40px;
+    background: gray;
+}
