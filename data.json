@@ -1,0 +1,58 @@
+jsonData = {
+    
+    0 : {"navn" : "Bang-Larssen", "tlf" : "915 65 084"},
+    
+    1 : {"navn" : "Rønning", "tlf" : "950 41 643"},
+    
+    2 : {"navn" : "Dybsland", "tlf" : "952 11 889"},
+    
+    3 : {"navn" : "J. Elverum", "tlf" : "913 20 819"},
+    
+    4 : {"navn" : "Ødegaard/Ingvaldsen", "tlf" : "913 29 203"},
+    
+    5 : {"navn" : "Ulvik", "tlf" : "915 94 248"},
+    
+    6 : {"navn" : "Strand", "tlf" : "996 07 206"},
+    
+    7 : {"navn" : "Ertzgaard", "tlf" : "901 62 492"},
+    
+    8 : {"navn" : "Brustad", "tlf" : "951 29 487"},
+    
+    9 : {"navn" : "Hjellnes", "tlf" : "900 78  583"},
+    
+    10 : {"navn" : "Benjaminsen", "tlf" : "932 17 928"},
+    
+    11 : {"navn" : "Lunde", "tlf" : "990 90 559"},
+    
+    12 : {"navn" : "Eggan", "tlf" : "911 70 101"},
+    
+    13 : {"navn" : "Jensen", "tlf" : "996 30 061"},
+    
+    14 : {"navn" : "Kristiansen", "tlf" : "994 10 000"},
+    
+    15 : {"navn" : "Haave", "tlf" : "916 36 579"},
+    
+    16 : {"navn" : "Krogstad", "tlf" : "934 17 043"},
+    
+    17 : {"navn" : "Rødven", "tlf" : "928 04 417"},
+    
+    18 : {"navn" : "---", "tlf" : "---"},
+    
+    19 : {"navn" : "Leida", "tlf" : "414 70 646"},
+    
+    20 : {"navn" : "Gundersen", "tlf" : "91323539"},
+    
+    21 : {"navn" : "Kristiansen", "tlf" : "935 51 000"},
+    
+    22 : {"navn" : "Forbord", "tlf" : "997 03 672"},
+    
+    23 : {"navn" : "T.H Elverum", "tlf" : "905 72 757"},
+    
+    24 : {"navn" : "Langlo", "tlf" : "924 40 077"},
+    
+    25 : {"navn" : "---", "tlf" : "---"},
+    
+    26 : {"navn" : "---", "tlf" : "---"},
+    
+    27 : {"navn" : "Moen", "tlf" : "926 66 865"}
+};
