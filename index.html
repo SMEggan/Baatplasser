@@ -67,13 +67,21 @@
         let r2 = document.createElement("tr");
         
         cell(l1.navn, "left", r1);
-        cell(null, null, r1);
+        cell(null, "brygge", r1);
         cell(l2.navn, "right", r1);
         cell(l1.tlf, "left", r2);
-        cell(null, null, r2);
+        cell(null, "brygge", r2);
         cell(l2.tlf, "right", r2);
         
         document.getElementById("table").appendChild(r1);
         document.getElementById("table").appendChild(r2);
+        
+        for(let i = 0; i < 5; ++i) {
+            let row = document.createElement("tr");
+            cell(null, null, row);
+            cell(null, "brygge", row);
+            cell(null, null, row);
+            document.getElementById("table").appendChild(row);
+        }
     </script>
 </html>
