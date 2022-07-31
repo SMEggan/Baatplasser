@@ -28,3 +28,12 @@
 .right {
     text-align: right;
 }
+
+#contact {
+    text-align: center;
+    background-color: beige;
+}
+
+h1 {
+    font-size: 25px;
+}
