@@ -10,47 +10,39 @@
     <body>
         <div id="gjest">Stupetårn</div>
         <table id="table"></table>
+        
+        
     </body>
     
     <script>
-        let data = jsonData;
+        const data = jsonData;
+        
+        function cell(value, className, row) {
+            let c = document.createElement("td");
+            c.className = className;
+            c.innerHTML = value;
+            row.appendChild(c);
+        }
         
         for(let i = 0; i < 14; ++i) {
-            let nameL = document.createElement("td");
-            let nameR = document.createElement("td");
-            let tlfL = document.createElement("td");
-            let tlfR = document.createElement("td");
-            
-            let mid1 = document.createElement("td");
-            let mid2 = document.createElement("td");
-            
-            nameL.className = tlfL.className = "left";
-            nameR.className = tlfR.className = "right";
-            mid1.className = mid2.className = "brygge";
+            row1 = document.createElement("tr");
+            row2 = document.createElement("tr");
             
             let l = i + 14;
             let r = 13 - i;
             
-            mid1.innerHTML = l;
+            let num = l;
             for(let j = 0; j < 40; ++j) {
-                mid1.innerHTML += '\xa0';
+                num += '\xa0';
             }
-            mid1.innerHTML += r;
+            num += r;
             
-            nameL.innerHTML = data[l].navn;
-            tlfL.innerHTML = data[l].tlf;
-            nameR.innerHTML = data[r].navn;
-            tlfR.innerHTML = data[r].tlf;
-            
-            row1 = document.createElement("tr");
-            row1.appendChild(nameL);
-            row1.appendChild(mid1);
-            row1.appendChild(nameR);
-            
-            row2 = document.createElement("tr");
-            row2.appendChild(tlfL);
-            row2.appendChild(mid2);
-            row2.appendChild(tlfR);
+            cell(data[l].navn, "left", row1);
+            cell(num, "brygge", row1);
+            cell(data[r].navn, "right", row1);
+            cell(data[l].tlf, "left", row2);
+            cell(null, "brygge", row2);
+            cell(data[r].tlf, "right", row2);
             
             row3 = document.createElement("tr");
             for(let j = 0; j < 3; ++j) {
@@ -67,30 +59,15 @@
         let l1 = data.l1;
         let l2 = data.l2;
         
-        let name1 = document.createElement("td");
-        let name2 = document.createElement("td");
-        let tlf1 = document.createElement("td");
-        let tlf2 = document.createElement("td");
-        let m1 = document.createElement("td");
-        let m2 = document.createElement("td");
-        
-        name1.className = tlf1.className = "left";
-        name2.className = tlf2.className = "right";
-        
-        name1.innerHTML = l1.navn;
-        name2.innerHTML = l2.navn;
-        tlf1.innerHTML = l1.tlf;
-        tlf2.innerHTML = l2.tlf;
-        
         let r1 = document.createElement("tr");
         let r2 = document.createElement("tr");
         
-        r1.appendChild(name1);
-        r1.appendChild(m1);
-        r1.appendChild(name2);
-        r2.appendChild(tlf1);
-        r2.appendChild(m2);
-        r2.appendChild(tlf2);
+        cell(l1.navn, "left", r1);
+        cell(null, null, r1);
+        cell(l2.navn, "right", r1);
+        cell(l1.tlf, "left", r2);
+        cell(null, null, r2);
+        cell(l2.tlf, "right", r2);
         
         document.getElementById("table").appendChild(r1);
         document.getElementById("table").appendChild(r2);

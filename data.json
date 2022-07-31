@@ -56,7 +56,7 @@ jsonData = {
     
     27 : {"navn" : "Moen", "tlf" : "926 66 865"},
     
-    "l1" : {"navn" : "---", "tlf" : "---"},
+    "l1" : {"navn" : "Hjellnes (leid plass 2022)", "tlf" : "900 78  583"},
     
-    "l2" : {"navn" : "---", "tlf" : "---"}
+    "l2" : {"navn" : "Kristiansen (leid plass 2022)", "tlf" : "994 10 000"}
 };
