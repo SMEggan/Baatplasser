@@ -10,7 +10,7 @@ jsonData = {
     
     4 : {"navn" : "Ødegaard/Ingvaldsen", "tlf" : "913 29 203"},
     
-    5 : {"navn" : "Ulvik", "tlf" : "915 94 248"},
+    5 : {"navn" : "Rusten", "tlf" : "991 63 892"},
     
     6 : {"navn" : "Strand", "tlf" : "996 07 206"},
     
@@ -28,7 +28,7 @@ jsonData = {
     
     13 : {"navn" : "Jensen", "tlf" : "996 30 061"},
     
-    14 : {"navn" : "Kristiansen", "tlf" : "994 10 000"},
+    14 : {"navn" : "F. Kristiansen", "tlf" : "994 10 000"},
     
     15 : {"navn" : "Haave", "tlf" : "916 36 579"},
     
@@ -36,23 +36,23 @@ jsonData = {
     
     17 : {"navn" : "Rødven", "tlf" : "928 04 417"},
     
-    18 : {"navn" : "---", "tlf" : "---"},
+    18 : {"navn" : "Opheim", "tlf" : "995 16 997"},
     
     19 : {"navn" : "Leida", "tlf" : "414 70 646"},
     
     20 : {"navn" : "Gundersen", "tlf" : "91323539"},
     
-    21 : {"navn" : "Kristiansen", "tlf" : "935 51 000"},
+    21 : {"navn" : "R. Kristiansen", "tlf" : "935 51 000"},
     
-    22 : {"navn" : "Forbord", "tlf" : "997 03 672"},
+    22 : {"navn" : "Leid av Dragset fra Forbord", "tlf" : "997 03 672"},
     
     23 : {"navn" : "T.H Elverum", "tlf" : "905 72 757"},
     
     24 : {"navn" : "Langlo", "tlf" : "924 40 077"},
     
-    25 : {"navn" : "---", "tlf" : "---"},
+    25 : {"navn" : "Lund", "tlf" : "---"},
     
-    26 : {"navn" : "---", "tlf" : "---"},
+    26 : {"navn" : "Husby", "tlf" : "976 66 340"},
     
     27 : {"navn" : "Moen", "tlf" : "926 66 865"},
     
