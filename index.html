@@ -37,16 +37,21 @@
             let r = 13 - i;
             
             let num = l;
+            let bredde = data[l].bredde;
             for(let j = 0; j < 40; ++j) {
                 num += '\xa0';
             }
+            for(let j = 0; j < 30; ++j) {
+                bredde += '\xa0';
+            }
             num += r;
+            bredde += data[r].bredde;
             
             cell(data[l].navn, "left", row1);
             cell(num, "brygge", row1);
             cell(data[r].navn, "right", row1);
             cell(data[l].tlf, "left", row2);
-            cell(null, "brygge", row2);
+            cell(bredde, "brygge", row2);
             cell(data[r].tlf, "right", row2);
             
             row3 = document.createElement("tr");

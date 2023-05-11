@@ -1,62 +1,62 @@
 jsonData = {
     
-    0 : {"navn" : "Bang-Larssen", "tlf" : "915 65 084"},
+    0 : {"navn" : "Bang-Larssen", "tlf" : "915 65 084", "bredde" : "3.0m"},
     
-    1 : {"navn" : "Rønning", "tlf" : "950 41 643"},
+    1 : {"navn" : "Rønning", "tlf" : "950 41 643", "bredde" : "3.0m"},
     
-    2 : {"navn" : "Dybsland", "tlf" : "952 11 889"},
+    2 : {"navn" : "Dybsland", "tlf" : "952 11 889", "bredde" : "3.0m"},
     
-    3 : {"navn" : "J. Elverum", "tlf" : "913 20 819"},
+    3 : {"navn" : "J. Elverum", "tlf" : "913 20 819", "bredde" : "3.0m"},
     
-    4 : {"navn" : "Ødegaard/Ingvaldsen", "tlf" : "913 29 203"},
+    4 : {"navn" : "Ødegaard/Ingvaldsen", "tlf" : "913 29 203", "bredde" : "3.0m"},
     
-    5 : {"navn" : "Rusten", "tlf" : "991 63 892"},
+    5 : {"navn" : "Rusten", "tlf" : "991 63 892", "bredde" : "3.0m"},
     
-    6 : {"navn" : "Strand", "tlf" : "996 07 206"},
+    6 : {"navn" : "Strand", "tlf" : "996 07 206", "bredde" : "3.0m"},
     
-    7 : {"navn" : "Ertzgaard", "tlf" : "901 62 492"},
+    7 : {"navn" : "Ertzgaard", "tlf" : "901 62 492", "bredde" : "3.0m"},
     
-    8 : {"navn" : "Brustad", "tlf" : "951 29 487"},
+    8 : {"navn" : "Brustad", "tlf" : "951 29 487", "bredde" : "3.0m"},
     
-    9 : {"navn" : "Hjellnes", "tlf" : "900 78  583"},
+    9 : {"navn" : "Hjellnes", "tlf" : "900 78  583", "bredde" : "3.0m"},
     
-    10 : {"navn" : "Opshaug", "tlf" : "450 00 008"},
+    10 : {"navn" : "Opshaug", "tlf" : "450 00 008", "bredde" : "3.0m"},
     
-    11 : {"navn" : "Lunde", "tlf" : "990 90 559"},
+    11 : {"navn" : "Lunde", "tlf" : "990 90 559", "bredde" : "3.5m"},
     
-    12 : {"navn" : "Eggan", "tlf" : "911 70 101"},
+    12 : {"navn" : "Eggan", "tlf" : "911 70 101", "bredde" : "3.0m"},
     
-    13 : {"navn" : "Jensen", "tlf" : "996 30 061"},
+    13 : {"navn" : "Jensen", "tlf" : "996 30 061", "bredde" : "3.5m"},
     
-    14 : {"navn" : "Østgaard", "tlf" : "917 60 168"},
+    14 : {"navn" : "Østgaard", "tlf" : "917 60 168", "bredde" : "3.0m"},
     
-    15 : {"navn" : "Haave", "tlf" : "916 36 579"},
+    15 : {"navn" : "Haave", "tlf" : "916 36 579", "bredde" : "3.0m"},
     
-    16 : {"navn" : "Krogstad", "tlf" : "934 17 043"},
+    16 : {"navn" : "Krogstad", "tlf" : "934 17 043", "bredde" : "3.0m"},
     
-    17 : {"navn" : "Rødven", "tlf" : "928 04 417"},
+    17 : {"navn" : "Rødven", "tlf" : "928 04 417", "bredde" : "3.0m"},
     
-    18 : {"navn" : "Opheim", "tlf" : "995 16 997"},
+    18 : {"navn" : "Opheim", "tlf" : "995 16 997", "bredde" : "3.0m"},
     
-    19 : {"navn" : "Leida", "tlf" : "414 70 646"},
+    19 : {"navn" : "Leida", "tlf" : "414 70 646", "bredde" : "3.0m"},
     
-    20 : {"navn" : "Gundersen", "tlf" : "91323539"},
+    20 : {"navn" : "Gundersen", "tlf" : "91323539", "bredde" : "3.0m"},
     
-    21 : {"navn" : "R. Kristiansen", "tlf" : "932 51 000"},
+    21 : {"navn" : "R. Kristiansen", "tlf" : "932 51 000", "bredde" : "3.0m"},
     
-    22 : {"navn" : "Leid av Dragset fra Forbord", "tlf" : "997 03 672"},
+    22 : {"navn" : "Leid av Dragset fra Forbord", "tlf" : "997 03 672", "bredde" : "3.0m"},
     
-    23 : {"navn" : "T.H Elverum", "tlf" : "905 72 757"},
+    23 : {"navn" : "T.H Elverum", "tlf" : "905 72 757", "bredde" : "3.0m"},
     
-    24 : {"navn" : "Otto Okstad", "tlf" : "917 93 877"},
+    24 : {"navn" : "Otto Okstad", "tlf" : "917 93 877", "bredde" : "3.0m"},
     
-    25 : {"navn" : "Lund", "tlf" : "901 64 448"},
+    25 : {"navn" : "Lund", "tlf" : "901 64 448", "bredde" : "3.0m"},
     
-    26 : {"navn" : "Husby", "tlf" : "976 66 340"},
+    26 : {"navn" : "Husby", "tlf" : "976 66 340", "bredde" : "3.0m"},
     
-    27 : {"navn" : "Moen", "tlf" : "926 66 865"},
+    27 : {"navn" : "Moen", "tlf" : "926 66 865", "bredde" : "3.0m"},
     
-    "l1" : {"navn" : "Hjellnes (leid plass 2022)", "tlf" : "900 78  583"},
+    "l1" : {"navn" : "Hjellnes (leid plass 2022)", "tlf" : "900 78  583", "bredde" : ""},
     
-    "l2" : {"navn" : "Kristiansen (leid plass 2022)", "tlf" : "994 10 000"}
+    "l2" : {"navn" : "Kristiansen (leid plass 2022)", "tlf" : "994 10 000", "bredde" : ""}
 };
